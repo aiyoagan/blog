@@ -1,0 +1,24 @@
+---
+layout: post
+title: "下载的Jekyll模版出现问题：you haven't included the `jekyll-paginate` gem."
+date: 2016-09-12 09:50:00
+categories: ['jekyll']
+tags: ['jekyll']
+---
+## 报错信息：
+```
+Dependency Error: Yikes! It looks like you don't have jekyll-paginate or one of its dependencies installed. In order to use Jekyll as currently configured, you'll need to install this gem. The full error message from Ruby is: 'cannot load such file -- jekyll-paginate' If you run into trouble, you can find helpful resources at http://jekyllrb.com/help/! 
+jekyll 3.2.1 | Error:  jekyll-paginate
+```
+## 解决方法：
+First step：
+```
+sudo gem install jekyll-paginate
+```
+Second step：
+Alternatively, add to your *_config.yml*:
+
+```
+gem 'jekyll-paginate', group: :jekyll_plugins
+```
+[cankao](https://github.com/jekyll/jekyll/issues/4124)
