@@ -1,11 +1,11 @@
 ---
 layout: post
 title: "bootstrap modal如何传值进modal框"
-date: 2016-09-12 09:55:00
+date: 2016-09-12 15:07:00
 categories: ['bootstrap']
 tags: ['bootstrap']
 ---
-# 本文资料参考：http://www.juzi89.com/?p=127
+# [本文资料参考链接](http://www.juzi89.com/?p=127)
 ```
 <a href="#myModal" role="button" data-toggle="modal" class="del" date-id="参数"><i class="icon-remove"></i></a>
 ```
