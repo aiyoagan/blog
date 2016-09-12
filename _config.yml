@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: aiyoagan@gmail.com
 description: "一个写php的桔子 | 仅此而已"
 keyword: "桔子的桔子的博客, James Blog, 博客, 个人网站, 互联网, 后端"
-url: "http://www.juzi89.com"              # your host, for absolute URL
+url: "http://blog.juzi89.com"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 
