@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Cmd Markdown 简明语法手册"
+title: "Markdown 手册"
 date: 2016-09-12 09:56:00
 categories: ['markdown']
 tags: ['markdown']

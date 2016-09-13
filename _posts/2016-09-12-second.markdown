@@ -3,7 +3,7 @@ layout: post
 title: "下载的Jekyll模版出现问题：you haven't included the `jekyll-paginate` gem."
 date: 2016-09-12 09:50:00
 categories: ['jekyll']
-tags: ['jekyll']
+tags: ['jekyll','gem']
 ---
 ## 报错信息：
 ```
@@ -16,9 +16,11 @@ First step：
 sudo gem install jekyll-paginate
 ```
 Second step：
-Alternatively, add to your *_config.yml*:
+Alternatively, add to your *Gemfile*:
 
 ```
-gem 'jekyll-paginate', group: :jekyll_plugins
+group :jekyll_plugins do
+ gem "jekyll-paginate", "~> 1.1.0"
+ end
 ```
-[cankao](https://github.com/jekyll/jekyll/issues/4124)
+[参考](http://jekyllrb.com/docs/plugins)
