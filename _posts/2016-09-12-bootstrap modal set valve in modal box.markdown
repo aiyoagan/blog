@@ -6,11 +6,11 @@ categories: ['bootstrap']
 tags: ['bootstrap']
 ---
 # [本文资料参考链接](http://www.juzi89.com/?p=127)
-```
+``` html
 <a href="#myModal" role="button" data-toggle="modal" class="del" date-id="参数"><i class="icon-remove"></i></a>
 ```
 
-```
+``` html
 <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
@@ -25,7 +25,7 @@ tags: ['bootstrap']
     </div>
 </div>
 ```
-```
+``` javascript
 <script type="text/javascript">
     $(document).ready(function(){
         $(".del").click(function(){

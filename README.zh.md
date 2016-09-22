@@ -18,4 +18,4 @@ group :jekyll_plugins do
 
 使用`bundle exec jekyll server`的同学在更新jekyll后，需要输入`bundle update`来更新依赖的包.
 
-参考文档：[Installing a plugin](http://jekyllrb.com/docs/plugins/))
+参考文档：[Installing a plugin](http://jekyllrb.com/docs/plugins/)
